@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "firesword",
+  "version": "${version}",
+  "name": "Fire Sword",
+  "description": "A blazing sword that hits harder than netherite and sets enemies on fire.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.firesword.FireSwordMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
